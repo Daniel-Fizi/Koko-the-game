@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>KokoTheMonkey</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+			<bgsound src="audio/st.mp3"/>
+	</head>
+	<body>
+	
+		<canvas id="sky-canvas" width="912" height="624"></canvas>
+		<canvas id="bg-canvas" width="912" height="624"></canvas>
+		<canvas id="fg-canvas" width="912" height="624"></canvas>
+		<img src="img/head.png" id="head"/>
+		<img src="img/banan.png" id="banan"/>
+		
+		
+		
+		<script src="js/obiekty.js"></script>
+		<script src="js/render.js"></script>
+		<script src="js/animacje.js"></script>
+		<script src="js/smierc.js"></script>
+		<script src="js/fizyka.js"></script>
+		<script src="js/wejscie.js"></script>
+		<script src="js/poruszanie.js"></script>
+		<script src="js/silnik.js"></script>
+		
+		<script>
+		const sound = new Audio("audio/st.mp3");
+		sound.play();
+		sound.volume = 0.05;
+		sound.loop = true;
+		</script>
+	
+		
+		 
+	</body>
+</html>
